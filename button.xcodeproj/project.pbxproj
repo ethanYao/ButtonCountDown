@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181D2ACA1C47E93C000E6956 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D2AC61C47E93C000E6956 /* UIButton+CountDown.m */; };
+		181D2ACB1C47E93C000E6956 /* CountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D2AC91C47E93C000E6956 /* CountDownButton.m */; };
 		188929E61C414992000E11E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188929E51C414992000E11E6 /* main.m */; };
 		188929E91C414992000E11E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188929E81C414992000E11E6 /* AppDelegate.m */; };
 		188929EC1C414992000E11E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188929EB1C414992000E11E6 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181D2AC51C47E93C000E6956 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		181D2AC61C47E93C000E6956 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		181D2AC81C47E93C000E6956 /* CountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownButton.h; sourceTree = "<group>"; };
+		181D2AC91C47E93C000E6956 /* CountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownButton.m; sourceTree = "<group>"; };
 		188929E11C414992000E11E6 /* button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = button.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188929E51C414992000E11E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188929E71C414992000E11E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181D2AC41C47E93C000E6956 /* ButtonCategory */ = {
+			isa = PBXGroup;
+			children = (
+				181D2AC51C47E93C000E6956 /* UIButton+CountDown.h */,
+				181D2AC61C47E93C000E6956 /* UIButton+CountDown.m */,
+			);
+			path = ButtonCategory;
+			sourceTree = "<group>";
+		};
+		181D2AC71C47E93C000E6956 /* CountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				181D2AC81C47E93C000E6956 /* CountDownButton.h */,
+				181D2AC91C47E93C000E6956 /* CountDownButton.m */,
+			);
+			path = CountDownButton;
+			sourceTree = "<group>";
+		};
 		188929D81C414992000E11E6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +125,8 @@
 		188929E31C414992000E11E6 /* button */ = {
 			isa = PBXGroup;
 			children = (
+				181D2AC41C47E93C000E6956 /* ButtonCategory */,
+				181D2AC71C47E93C000E6956 /* CountDownButton */,
 				188929E71C414992000E11E6 /* AppDelegate.h */,
 				188929E81C414992000E11E6 /* AppDelegate.m */,
 				188929EA1C414992000E11E6 /* ViewController.h */,
@@ -272,7 +298,9 @@
 			files = (
 				188929EC1C414992000E11E6 /* ViewController.m in Sources */,
 				188929E91C414992000E11E6 /* AppDelegate.m in Sources */,
+				181D2ACB1C47E93C000E6956 /* CountDownButton.m in Sources */,
 				188929E61C414992000E11E6 /* main.m in Sources */,
+				181D2ACA1C47E93C000E6956 /* UIButton+CountDown.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +524,7 @@
 				18892A101C414992000E11E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18892A111C414992000E11E6 /* Build configuration list for PBXNativeTarget "buttonTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				18892A131C414992000E11E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18892A141C414992000E11E6 /* Build configuration list for PBXNativeTarget "buttonUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				18892A161C414992000E11E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
