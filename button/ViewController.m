@@ -20,7 +20,7 @@
     [super viewDidLoad];
 
     /********************************************************************
-     *          please open the one that you want                       *
+     *          please open this one that you want                       *
      *                                                                  *
      ********************************************************************/
     
